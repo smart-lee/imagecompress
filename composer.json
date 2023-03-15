@@ -1,0 +1,41 @@
+{
+  "name": "imagecompress/imagecompress",
+  "description": "Image Compress Library",
+  "keywords": [
+    "framework",
+    "gd",
+    "image",
+    "compress"
+  ],
+  "type": "library",
+  "license": "MIT",
+  "authors": [
+    {
+      "name": "lisl",
+      "email": "279077971@qq.com"
+    }
+  ],
+  "require": {
+    "php": ">=7.2",
+    "ext-gd": "*"
+  },
+  "require-dev": {
+    "php": ">=7.2"
+  },
+  "autoload": {
+    "psr-4": {
+      "imagecompress\\": "src/"
+    }
+  },
+  "autoload-dev": {
+    "psr-4": {
+      "imagecompress\\Test\\": "test/"
+    }
+  },
+  "repositories": {
+    "packagist": {
+      "type": "composer",
+      "url": "https://mirrors.aliyun.com/composer/"
+    }
+  }
+}
