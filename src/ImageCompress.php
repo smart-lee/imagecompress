@@ -33,6 +33,7 @@ class ImageCompress
             $rand = range(1, 2, 0.1); //随机压缩成1-2M
 
             //这是第一次提交
+            //这是第二次提交
 
             //i的值影响压缩质量
             if ($filesize > 50) {
