@@ -34,6 +34,7 @@ class ImageCompress
 
             //这是第一次提交
             //这是第二次提交
+            //这是第三次提交
 
             //i的值影响压缩质量
             if ($filesize > 50) {
